@@ -12,6 +12,8 @@ class ImageScreen(Screen):
         app = App.get_running_app()
         app.finder.locate_board()
         image = self.children[0].children[1].children[0]
+        img = image.data
+        print(img)
 
 
 Builder.load_string("""
@@ -22,6 +24,7 @@ Builder.load_string("""
         TopBar:
         RelativeLayout:
             Image:
+                keep_data: True
                 source: app.image_file
                 pos: self.pos
                 size: self.size
