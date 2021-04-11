@@ -1,0 +1,13 @@
+
+import logging
+
+from ipalet.app import iPaletApp
+
+__version__ = "0.0.0"
+
+
+log = logging.getLogger(__name__)
+
+
+if __name__ == '__main__':
+    iPaletApp().run()
