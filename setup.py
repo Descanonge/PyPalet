@@ -25,8 +25,8 @@ CLASSIFIERS = [
 ]
 
 
-setup(name='iPalet',
-      version=get_version('src/ipalet/__init__.py'),
+setup(name='pypalet',
+      version=get_version('src/pypalet/__init__.py'),
 
       description="",
       # long_description=get_long_description('README.md'),

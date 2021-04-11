@@ -4,11 +4,11 @@ from kivy.lang import Builder
 from kivy.uix.screenmanager import Screen
 from kivy.properties import StringProperty, ObjectProperty
 
-from ipalet.title_screen import TitleScreen
-from ipalet.settings import SettingsScreen
-from ipalet.image import ImageScreen
+from pypalet.title_screen import TitleScreen
+from pypalet.settings import SettingsScreen
+from pypalet.image import ImageScreen
 
-from ipalet.finder import Finder, Params
+from pypalet.finder import Finder, Params
 
 from skimage.io import imread
 
@@ -17,7 +17,7 @@ class ResultsScreen(Screen):
     pass
 
 
-class iPaletApp(App):
+class PyPaletApp(App):
     image_file = StringProperty("")
     finder = ObjectProperty(None)
     params = ObjectProperty(None)

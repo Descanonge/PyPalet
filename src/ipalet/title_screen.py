@@ -6,7 +6,7 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.screenmanager import Screen
 
-from ipalet.topbar import TopBar
+from pypalet.topbar import TopBar
 
 
 class TitleScreen(Screen):

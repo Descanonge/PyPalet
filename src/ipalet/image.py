@@ -4,7 +4,7 @@ from kivy.lang import Builder
 from kivy.uix.screenmanager import Screen
 from kivy.uix.image import Image
 
-from ipalet.finder import Finder
+from pypalet.finder import Finder
 
 
 class ImageScreen(Screen):

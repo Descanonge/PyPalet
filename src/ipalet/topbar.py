@@ -44,7 +44,7 @@ Builder.load_string("""
     size_hint_x: None
     on_press: app.transition_screen("settings", "right")
 <TitleLabel@Label>:
-    text: "iPalet"
+    text: "pyPalet"
     halign: "center"
     valign: "center"
 <HelpButton@Button>:

@@ -1,10 +1,10 @@
 [app]
 
-title = iPalet
-package.name = ipalet
+title = pyPalet
+package.name = pypalet
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.ipalet
+package.domain = org.pypalet
 
 # (str) Source code where the main.py live
 source.dir = .
